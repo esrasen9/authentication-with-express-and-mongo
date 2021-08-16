@@ -1,4 +1,4 @@
-# Example of a user authentication system that controls users access to web resources using Node.js Express and MongoDB
+## Example of a user authentication system that controls users access to web resources using Node.js Express and MongoDB
 
 ***Screenshots from mongo shell***
 :camera_flash:
