@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+    color: #03032b;;
+    font-family: 'Open Sans', sans-serif;
+}
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+}
+
+.container {
+    height: 78vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.signup {
+    width: 70%;
+    padding: 0 2rem 3rem 2rem;
+    background-color: rgba(211, 211, 211, 0.26);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.login-form {
+    width: 70%;
+    height: 80%;
+    background-color: rgba(211, 211, 211, 0.26);
+}
+.signup h1, .login-form h1 {
+    padding: 1rem;
+}
+.signup-form,.login-form {
+    padding: 1rem 4rem 1rem 10px;
+}
+.form-group {
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding: 0.8rem 1rem;
+}
+.form-group label {
+    padding: 5px 0;
+}
+.form-group input {
+    border: 1px solid gray;
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: transparent;
+}
+.btn {
+    font-size: 1.4rem;
+    background-color: rgba(3, 3, 43, 0.75);
+    color: #fff;
+    margin: 1rem 0 0 10px;
+    padding: 0.5rem 1.4rem;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.nav-items {
+    display: flex;
+    align-items: center;
+}
+
+.nav-item,.btn-info {
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+.navbar-brand {
+    font-family: 'Style Script', cursive;
+    letter-spacing: 1.6px;
+    font-size: 2rem;
+}
+
+a {
+    color:#03032b;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.footer {
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: bold;
+    padding: 1rem;
+    opacity: 0.5;
+    color: rgba(3, 3, 43, 0.75);
+}
+
+.contact, .about {
+    width: 75%;
+    font-size: 0.9rem;
+    padding: 10px;
+}
+
+.home {
+    text-align: center;
+    font-size: 1.6rem;
+    height: 60%;
+    padding: 5rem 2rem;
+}
+

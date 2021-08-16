@@ -1,0 +1,32 @@
+extends layout
+block content
+    .container
+        .signup
+                h1 Sign Up
+                // register form
+                .signup-form
+                    form(method='POST' action='/signup')
+                        div.form-group
+                            label(for='name') Name:
+                            input#name.form-control(type='text',
+                                                    placeholder='Enter your firstname and lastname',
+                                                    name='name')
+                        div.form-group
+                            label(for='email') Email:
+                            input#email.form-control(type='email',
+                                                     placeholder='name@email.com'
+                                                     name='email')
+                        div.form-group
+                            label(for='favoriteBook') Favorite Book:
+                            input#favoriteBook.form-control(type='text',
+                                                            placeholder='Enter the name of your favorite book'
+                                                            name='favoriteBook')
+                        div.form-group
+                            label(for='password') Password:
+                            input#password.form-control(type='password',
+                                                        name='password')
+                        div.form-group
+                            label(for='confirmPassword') Confirm Password:
+                            input#confirmPassword.form-control(type='password',
+                                                         name='confirmPassword')
+                        button.btn(type='submit') Sign up

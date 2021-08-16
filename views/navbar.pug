@@ -1,0 +1,15 @@
+nav
+  .navbar
+      a.navbar-brand(href='/') Goodreads
+      .nav-items
+        if !currentUser
+            a.nav-item(href="/signup") Sign Up
+        a.nav-item(href='/about') About
+        a.nav-item(href='/contact') Contact
+        a.nav-item(href='/profile') My Profile
+        if currentUser
+            a.btn.btn-info(href='/logout') Log Out
+        else
+          a.btn.btn-info(href='/login') Log In
+
+

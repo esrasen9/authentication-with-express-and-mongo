@@ -1,0 +1,13 @@
+extends layout
+block content
+    .container
+        .login-form
+            h1 Log In
+            form(method='POST' action='/login')
+                div.form-group
+                    label(for='email') Email
+                    input.form-control(type='text' id='email' placeholder='email' name='email')
+                div.form-group
+                    label(for='password') Password
+                    input.form-control(type='password' id='password' placeholder='password' name='password')
+                button.btn.btn-login(type='submit') Log in
